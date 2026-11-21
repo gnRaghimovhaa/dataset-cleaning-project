@@ -6,15 +6,15 @@
 
 ### Sətir sayı
 
-Çirkli dataset 100 sətirdən ibarət idi. Təmizləmə prosesindən sonra dublikat məlumatların silinməsi nəticəsində dataset 88 sətir oldu.
+Çirkli dataset 100 sətirdən ibarət idi. Təmizləmə prosesindən sonra məlumat itkisi olmaması üçün dublikat qeydlər silinmədi və unikal ID-lərlə saxlanıldı.
 
 ### Boş dəyərlər
 
-Çirkli datasetdə `created_at` sütununda 0.1 nisbətində boş dəyər mövcud idi. Təmizləmə prosesindən sonra bütün sütunlarda boş dəyər nisbəti 0 oldu.
+Çirkli datasetdə `created_at` sütununda boş dəyərlər mövcud idi. Boş və etibarsız tarixlər süni məlumatla doldurulmadı, missing value kimi saxlanıldı. Digər sütunlardakı boş dəyərlər uyğun qaydalarla idarə edildi.
 
 ### Dublikat məlumatlar
 
-Təmizləmədən əvvəl `application_id` sütununda 13 dənə dublikat dəyər mövcud idi. Təmizləmə prosesindən sonra duplicate dəyərlər silindi və unikal ID tələbi təmin edildi.
+Təmizləmədən əvvəl `application_id` sütununda 13 dənə təkrar dəyər mövcud idi. Bu qeydlər fərqli məlumatlar saxladığı üçün silinmədi. Əvəzinə hər qeyd üçün unikal ID yaradıldı.
 
 ### Status formatları
 
@@ -22,4 +22,4 @@ Təmizləmədən əvvəl `application_id` sütununda 13 dənə dublikat dəyər 
 
 ## Nəticə
 
-Dataset təmizləmə prosesi uğurla tamamlandı. Boş dəyərlər, duplicate ID-lər və məlumat formatı problemləri aradan qaldırıldı. Təmizlənmiş dataset analiz üçün hazır vəziyyətə gətirildi.
+Dataset təmizləmə prosesi zamanı tarix formatları standartlaşdırıldı, etibarsız tarixlər və boş tarixlər, duplicate ID problemləri məlumat itkisi olmadan həll edildi və status formatları uyğunlaşdırıldı. Təmizlənmiş dataset analiz üçün hazır vəziyyətə gətirildi.
