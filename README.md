@@ -17,7 +17,6 @@ Bu layihənin məqsədi təcrübə proqramına müraciət edən namizədlərin m
 -Jupyter Notebook
 -Python
 -Pandas
--R
 -Github
 -Visual Studio
 
@@ -31,11 +30,11 @@ Bu layihənin məqsədi təcrübə proqramına müraciət edən namizədlərin m
 ## Fayllar
 
 - `cleaning_dataset.ipynb` - Dataset təmizləmə prosesinin kodlarını və analiz nəticələri olan notebook.
-- `data_dictionary.md` - Dataset sütunlarının adı, tipi və izahını göstərir.
+- `Data_Dictionary.md` - Dataset sütunlarının adı, tipi və izahını göstərir.
 - `raw.csv` - İlkin xam dataset faylı.
 - `dirty.csv` - Problemləri (boş dəyərlər, duplicate-lər və format uyğunsuzluqları) olan çirkli dataset.
 - `clean.csv` - Təmizlənmiş və analiz üçün hazır dataset.
-- `clean_25.csv` - 25 sətirlik praktik nümunənin təmizlənmiş versiyası.
+- `clean25.csv` - 25 sətirlik praktik nümunənin təmizlənmiş versiyası.
 
 > QEYD : Dataset sütunları haqqında ətraflı məlumat üçün `data_dictionary.md` faylına baxa bilərsiniz.
 
