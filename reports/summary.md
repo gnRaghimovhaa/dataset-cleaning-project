@@ -6,7 +6,7 @@
 
 ### Sətir sayı
 
-Çirkli dataset 100 sətirdən ibarət idi. Təmizləmə prosesindən sonra məlumat itkisi olmaması üçün dublikat qeydlər silinmədi və unikal ID-lərlə saxlanıldı.
+Çirkli dataset 100 sətirdən ibarət idi. Təmizləmə prosesindən sonra məlumat itkisi olmaması üçün dublikat qeydlər silinmədi və unikal ID-lərlə saxlanıldı. Təmizlənmiş dataset 87 sətirdən ibarətdir.
 
 ### Boş dəyərlər
 
